@@ -28,7 +28,7 @@ export default function Step2(props) {
                     <p className="result">
                         {props.winner === 1 ? "YOU WON" : undefined}
                         {props.winner === 2 ? "YOU LOOSE" : undefined}
-                        {props.winner === 3 ? "TIE" : undefined}
+                        {props.winner === 3 ? "DRAW" : undefined}
                     </p>
                     <p className="playAgain" onClick={props.handleClick}>PLAY AGAIN</p>
                 </div>
@@ -84,7 +84,7 @@ export default function Step2(props) {
                     <p className="result">
                         {props.winner === 1 ? "YOU WON" : undefined}
                         {props.winner === 2 ? "YOU LOOSE" : undefined}
-                        {props.winner === 3 ? "TIE" : undefined}
+                        {props.winner === 3 ? "DRAW" : undefined}
                     </p>
                     <p className="playAgain" onClick={props.handleClick}>PLAY AGAIN</p>
                 </div>
