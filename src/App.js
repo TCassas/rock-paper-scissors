@@ -75,8 +75,6 @@ function App() {
           break;
       }
     }
-
-    console.log(`P1 ${P1} - P2 ${P2}`)
   }
 
   const playAgain = () => {

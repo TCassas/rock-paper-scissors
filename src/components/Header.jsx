@@ -9,8 +9,8 @@ export default function header(props) {
         <p>Scissors</p>
       </div>
       <div className="score">
-        <p>Score</p>
-        <p className="score-number">{props.score}</p>
+        <p>Score</p>  
+          <p className="score-number">{props.score}</p>
       </div>
     </header>
   )
