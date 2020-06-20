@@ -50,6 +50,7 @@ function App() {
         case 1:
           if(P2 === 2) {
             setWinner(2)
+            setScore(score - 1)
           } else {
             setWinner(1)
             setScore(score + 1)
@@ -61,11 +62,13 @@ function App() {
             setScore(score + 1)
           } else {
             setWinner(2)
+            setScore(score - 1)
           }
           break;
         case 3:
           if(P2 === 1) {
             setWinner(2)
+            setScore(score - 1)
           } else {
             setWinner(1)
             setScore(score + 1)

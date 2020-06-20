@@ -10,7 +10,9 @@ export default function header(props) {
       </div>
       <div className="score">
         <p>Score</p>  
-          <p className="score-number">{props.score}</p>
+          <p
+            className={props.score === 0 ? "score-number" : props.score > 0 ? "score-number positive" : "score-number negative"}
+          >{props.score}</p>
       </div>
     </header>
   )
